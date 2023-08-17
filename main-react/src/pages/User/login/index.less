@@ -1,0 +1,91 @@
+@import '~antd/es/style/themes/default.less';
+
+.main {
+  width: 328px;
+  margin: 0 auto;
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+    max-width: 328px;
+  }
+
+  :global {
+    .@{ant-prefix}-tabs-nav-list {
+      margin: auto;
+      font-size: 16px;
+    }
+  }
+
+  .icon {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    margin-top: 24px;
+    line-height: 22px;
+    text-align: left;
+    .register {
+      float: right;
+    }
+  }
+
+  .prefixIcon {
+    color: @primary-color;
+    font-size: @font-size-base;
+  }
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://photo69.mac89.com/180528/JPG-180528_366/UvQyw6pNnB_small.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-card {
+  width: 30%;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+
+.login-form-button{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-form-button:hover {
+  transition: transform 0.3s ease-in-out;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.avatar-upload {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.avatar-upload .ant-upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.avatar-upload:hover .ant-upload {
+  opacity: 1;
+}

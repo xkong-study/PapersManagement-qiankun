@@ -1,0 +1,24 @@
+.steps-content {
+  margin-top: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  padding: 20px;
+  background-color: #fafafa;
+  min-height: 200px;
+  width: 80%
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.dropzone {
+  padding: 20px;
+  border: 2px dashed #0087F7;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+}
+
+

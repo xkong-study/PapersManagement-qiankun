@@ -1,0 +1,142 @@
+.all {
+  overflow: scroll;
+}
+
+.border {
+  height: 90%;
+  width: 90%;
+  border: 1px solid black;
+  margin: 2rem 2rem auto;
+}
+
+.title {
+  width: 90%;
+  white-space: normal;
+  text-align: center;
+  margin-left: 4%;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button-style {
+  width: 7rem;
+  height: 2rem;
+  background-color: #E8A700;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.button-style .font {
+  text-align: center;
+  padding-top: .5rem;
+  color: white;
+}
+
+.abstract0 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-left: 5px;
+}
+
+.abstract_more {
+  margin-left: 5px;
+}
+
+.abstract {
+  padding-left: 5px;
+}
+
+.font {
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  top: -0.5rem;
+  color: #0375B1;
+  background-color: ghostwhite;
+}
+
+.keyWords {
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  text-indent: 5px;
+}
+
+.keyWords:hover {
+  color: orangered;
+}
+
+.related {
+  text-indent: 5px;
+}
+
+.related .span {
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.related .span:hover {
+  color: #fcf3ef;
+  text-decoration: none;
+  background-color: #f88282;
+  border-radius: 15px;
+}
+
+.related .span_clicked {
+  cursor: pointer;
+  margin-right: 15px;
+  color: #fcf3ef;
+  text-decoration: none;
+  background-color: #f88282;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.related .span_clicked:hover {
+  text-decoration: underline;
+  transition: text-decoration .6s ease-in-out;
+  border-radius: 15px;
+}
+
+.custom-list {
+  counter-reset: custom-counter;
+  list-style-type: none;
+  margin-left: -2rem;
+}
+
+.custom-list li {
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #0375B1;
+}
+
+.custom-list li::before {
+  content: "[" counter(custom-counter) "]";
+  counter-increment: custom-counter;
+  margin-right: 0.5em;
+}
+
+.custom-list li:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.hover_link{
+  color: #0375B1;
+  text-decoration: underline;
+}
+
+.hover_link:hover{
+  color: orangered;
+  text-decoration: underline;
+  cursor: pointer;
+}

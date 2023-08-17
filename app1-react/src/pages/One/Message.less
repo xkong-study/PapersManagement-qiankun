@@ -1,0 +1,66 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.message-table {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.friend-list {
+  flex: 0 0 300px;
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+&:hover {
+   background-color: #ebebeb;
+ }
+
+&.selected {
+   background-color: #d4f5d4;
+ }
+
+.ant-avatar {
+  margin-right: 8px;
+}
+
+span {
+  flex: 1;
+}
+
+button {
+  margin-left: 8px;
+}
+}
+
+.modal {
+.ant-modal-body {
+  text-align: center;
+}
+}

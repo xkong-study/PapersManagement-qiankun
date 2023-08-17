@@ -1,0 +1,76 @@
+.todo-list-page {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.search-card {
+  margin-bottom: 2em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+.new-task-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.new-task-container > * {
+  flex-basis: 20%;
+}
+
+.new-task-container .ant-btn-primary {
+  background-color: #007BFF;
+  border-color: #007BFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 123, 255, 0.16);
+  transition: all 0.3s ease;
+}
+
+.new-task-container .ant-btn-primary:hover,
+.new-task-container .ant-btn-primary:focus {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.task-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-column {
+  flex-basis: 32%;
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  transition: all 0.3s ease;
+}
+
+.task:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.16);
+}
+
+.delete-task-icon {
+  margin-right: 1em;
+}
+
+.task-details {
+  margin-top: 2em;
+}
+
+.task-card {
+  margin-bottom: 1em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
